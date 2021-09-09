@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CHROME" verbose="1" thread-count="1" parallel="tests"  >
+    <test name="CHROME" parallel="methods" thread-count="4"  >
+        <parameter name="browser" value="Firefox"/>
+        <!--        <classes>
+                    <class name="org.selenium.pom.tests.MyFirstTestCase"/>
+                    &lt;!&ndash;<class name="org.selenium.pom.tests"/>&ndash;&gt;
+                </classes>-->
+        <!--<packages>
+            <package name="com.selenium.pom.tests"></package>
+        </packages>-->
+        <classes>
+            <class name="com.selenium.pom.tests.MyFirstTestCase"></class>
+            <class name="com.selenium.pom.tests.MyFirstInitialTestCase"></class>
+        </classes>
+
+    </test>
+
+    <!--    <test name="FIREFOX" verbose="1" parallel="methods" thread-count="2" >
+            <parameter name="browser" value="FIREFOX"/>
+            <classes>
+                <class name="org.selenium.pom.tests.MyFirstTestCase"/>
+                &lt;!&ndash;<class name="org.selenium.pom.tests"/>&ndash;&gt;
+            </classes>
+
+        </test>-->
+</suite>

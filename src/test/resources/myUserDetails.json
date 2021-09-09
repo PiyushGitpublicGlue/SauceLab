@@ -1,0 +1,20 @@
+[
+  {
+    "userId": 1,
+    "userFirstName": "TestFirst1",
+    "userLastName": "TestLast1",
+    "postalCode": "110001"
+  },
+  {
+    "userId": 2,
+    "userFirstName": "TestFirst2",
+    "userLastName": "TestLast2",
+    "postalCode": "110002"
+  },
+  {
+    "userId": 3,
+    "userFirstName": "TestFirst3",
+    "userLastName": "TestLast3",
+    "postalCode": "110003"
+  }
+]

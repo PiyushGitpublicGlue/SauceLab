@@ -1,0 +1,19 @@
+[
+{
+  "productId":2,
+  "productName":"onesie",
+  "productTitle": "Sauce Labs Onesie"
+},
+
+  {
+    "productId":1,
+    "productName":"bolt-t-shirt",
+    "productTitle": "Sauce Labs Bolt T-Shirt"
+  },
+  {
+    "productId":5,
+    "productName":"fleece-jacket",
+    "productTitle": "Sauce Labs Fleece Jacket"
+  }
+
+]
