@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class LoginTest extends BaseTest {
 
-    @Test
+    //@Test
     public void loginTestWithValidUser() throws IOException {
     LoginPage loginPage = new LoginPage(getDriver()).load();
     UserCred userCred = new UserCred(1);
@@ -20,7 +20,7 @@ public class LoginTest extends BaseTest {
     ProductPage productPage = loginPage.doLogin(userCred);
     Assert.assertEquals(productPage.getProductPageTitle(),ConfigLoader.getInstance().productPageExpectedTitle());
     }
-    @Test
+    //@Test
     public void loginTestWithInValidUser() throws IOException {
         LoginPage loginPage = new LoginPage(getDriver()).load();
         UserCred userCred = new UserCred(2);

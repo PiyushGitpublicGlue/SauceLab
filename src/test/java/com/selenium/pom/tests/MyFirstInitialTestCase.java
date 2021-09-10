@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class MyFirstInitialTestCase extends BaseTest {
-    @Test
+    //@Test
     public void placeOrderUsingExistingUserFromOutsideProduct(){
         getDriver().get("https://www.saucedemo.com/");
         Assert.assertEquals(getDriver().getTitle(),"Swag Labs");
@@ -27,7 +27,7 @@ public class MyFirstInitialTestCase extends BaseTest {
         Assert.assertEquals(getDriver().findElement(By.cssSelector(".complete-header")).getText(),"THANK YOU FOR YOUR ORDER");
 
     }
-    @Test
+    //@Test
     public void placeOrderUsingExistingUserFromInsideProduct(){
 
         getDriver().get("https://www.saucedemo.com/");
