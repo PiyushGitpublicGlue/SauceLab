@@ -39,7 +39,7 @@ public class MyFirstTestCase extends BaseTest {
         UserCred user1 = new UserCred(1);
         UserDetails userDetails3 = new UserDetails(3);
         Product product = new Product(5);
-        Assert.assertEquals(loginPage.getLoginPageTitle(),"Swag Lasbs");
+        Assert.assertEquals(loginPage.getLoginPageTitle(),"Swag Labs");
         ProductPage productPage = loginPage.doLogin(user1);
         Assert.assertEquals(productPage.getProductPageTitle(),"PRODUCTS");
         productPage.clickOnProductPage(product.getProductId());
